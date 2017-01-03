@@ -18,3 +18,4 @@ echo "<VirtualHost *:80>
 </VirtualHost>" > /etc/apache2/sites-available/$DOMAIN.conf
 echo "$DOMAIN vHost now created."
 read -p "Press enter to finish."
+service apache2 restart
