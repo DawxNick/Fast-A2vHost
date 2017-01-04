@@ -6,6 +6,7 @@ echo "Enter your webmaster's email address."
 read EMAIL
 echo "Enter your site directory. (/var/www/example.com)."
 read DOCUMENTROOT
+mkdir -p "$DOCUMENTROOT"
 echo "<VirtualHost *:80>
 	ServerAdmin $EMAIL
 	ServerName $DOMAIN
