@@ -1,6 +1,14 @@
 # Fast-A2vHost
 Quickly create Apache2 vHosts.
 
-Run the script sudo ./Fast-A2vHost.sh and follow the commands. It will automatically create the file under /etc/apache2/sites-available.
+To use the script, run the following commands.
 
-Tested on Ubuntu 16.04.
+wget https://raw.githubusercontent.com/DawxNick/Fast-A2vHost/master/Fast-A2vHost.sh
+chmod +x Fast-A2vHost.sh
+./Fast-A2vHost.sh
+
+Follow the prompts and your vHost will be created, the directory will be made, but the vHost won't be activated.
+
+Run a2ensite yourdomain.com.conf to enable it after creation.
+
+Tested on Ubuntu 16.04, compatible with Fast-LAMP.
