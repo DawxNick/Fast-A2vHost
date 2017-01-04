@@ -2,8 +2,6 @@
 echo "Welcome to Fast-A2vHost."
 echo "Enter your domain name (non-www)."
 read DOMAIN
-echo "Enter your domain name (www)."
-read WWWDOMAIN
 echo "Enter your webmaster's email address."
 read EMAIL
 echo "Enter your site directory. (/var/www/example.com)."
